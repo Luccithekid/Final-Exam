@@ -1,0 +1,170 @@
+html:root{
+    --off-white: rgb(245,245,245);
+    --blue: rgb(16,201,195);
+    --light-grey: rgb(216,216,216);
+    --nav-grey: rgb(51,51,51);
+    --black: rgb(29,29,29);
+    --grey: rgb(120, 120, 120);
+ }
+ 
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
+ /******************************* system text *************************************/
+ 
+ .f-nunito{
+    font-family: 'Nunito Sans', sans-serif;
+    }
+ 
+ .f-nav-grey{
+    color: var(--nav-grey)!important;
+ }
+ 
+ .f-black{
+    color: var(--black)!important;
+ }
+ 
+ .f-grey{
+    color: var(--grey)!important;
+ }
+ /******************************* system bg *************************************/
+ .bg-header{
+    background-image: url(drive-download-20240614T122528Z-001/aidan-hancock-8RU4OuA6Yug-unsplash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ .bg-black{
+    background-color: black;
+ } 
+ 
+ .bg-blue{
+    background-color: var(--blue);
+ }
+ 
+ .bg-skills{
+    background-image: url(../media/skills.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:580px;
+    width:100%;
+ }
+ 
+ .bg-lgt-grey{
+    background-color: var(--light-grey);
+ }
+ 
+ .bg-load{
+    background-color:var(--off-white);
+ }
+ 
+ /******************************* system margin *************************************/
+ .mg-b{
+    margin-bottom: 15%;
+ }
+ 
+ .mg-t{
+    margin-top: 15%;
+ }
+ /******************************* system link*************************************/
+ .h-activ:hover{
+    color: var(--blue)!important;
+ }
+ 
+ /******************************* button *************************************/
+ .btn{
+    font-size: 16px;
+    border-radius: 0;
+    width: 180px;
+ }
+ 
+ 
+ /******************************* work  *************************************/
+ 
+ .portfolio-box-photo{
+    width: 340px;
+    height:300px;
+    background-color: var(--grey-dark);
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: luminosity;
+ }
+ .portfolio-box-photo::before{
+    content:url(../media/oeil.png);
+    width: 100%;
+    height:100%;
+    background-color: rgba(14, 12, 12, 0.918);
+    color: var(--white);
+    font-size:2em;
+    text-align: center;
+    display:none;
+    line-height: 300px;
+    cursor: pointer;
+ 
+ }
+ .portfolio-box-photo:hover::before{
+    display: block;
+ }
+    .portfolio-box-bg1{
+       background-image: url(drive-download-20240614T122528Z-001/aidan-hancock-8RU4OuA6Yug-unsplash.png);
+   
+   }
+   .portfolio-box-bg2{
+       background-image: url(../media/desk.jpg);
+   
+   }
+   .portfolio-box-bg3{
+       background-image: url(../media/woman.jpg);
+   
+   }
+   .portfolio-box-bg4{
+       background-image: url(../media/code.jpg);
+   
+   }
+   
+   .portfolio-box-bg5{
+       background-image: url(../media/apps.jpg);
+   }
+   .portfolio-box-bg6{
+       background-image:url(../media/office.jpg); 
+   }
+   
+   .portfolio-box-bg7{
+       background-image: url(../media/social.jpg);
+   
+   }
+   .portfolio-box-bg8{
+       background-image: url(../media/ap.jpg);
+   }
+ 
+ 
+ /******************************* client *************************************/ 
+ .client{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding:20px;
+ }
+ /******************************* testimonials *************************************/
+ .container-fluid-testimonials{
+    min-height: 100px;
+ }
+ 
+ .carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius:50%;
+ }
+ 
+ .caroussel-size{
+    line-height: 50px;
+    font-size:25px;
+    margin-top: 40px;
+ }
+ /******************************* need a project *************************************/
+ .form-control{
+    border-radius: 0;
+    border: none;
+ }
